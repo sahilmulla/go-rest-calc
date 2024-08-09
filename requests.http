@@ -1,0 +1,22 @@
+GET http://localhost:4000/api/v1/add
+Content-Type: application/json
+
+{"first": 24,"second": 3}
+
+###
+GET http://localhost:4000/api/v1/subtract
+Content-Type: application/json
+
+{"first": 24,"second": 25}
+
+###
+GET http://localhost:4000/api/v1/multiply
+Content-Type: application/json
+
+{"first": 24,"second": 5}
+
+###
+GET http://localhost:4000/api/v1/divide
+Content-Type: application/json
+
+{"first": 24,"second": 0}
